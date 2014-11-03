@@ -22,10 +22,10 @@ Rails.application.configure do
     :address   => "smtp.mandrillapp.com",
     :port      => 25, # ports 587 and 2525 are also supported with STARTTLS
     :enable_starttls_auto => true, # detects and uses STARTTLS
-    :user_name => "mklemme",
-    :password  => "7TX3d0ISNLN7009IbGFXbQ", # SMTP password is any valid API key
+    :user_name => "username",
+    :password  => "apikey", # SMTP password is any valid API key
     :authentication => 'login', # Mandrill supports 'plain' or 'login'
-    :domain => 'getsprk.com', # your domain to identify your server when connecting
+    :domain => 'domain.com', # your domain to identify your server when connecting
   }
 
   # Print deprecation notices to the Rails logger.
